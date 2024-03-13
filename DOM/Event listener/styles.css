@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(155, 170, 19);
+}
+
+#main-heading {
+  text-align: center;
+  font-size: 38px;
+  color: rgb(112, 0, 9);
+}
+
+#heading {
+  margin-top: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+.hidden.btn-1 {
+  display: block;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px auto;
+}
+
+.boxes {
+  width: 100%;
+  height: 100%;
+  background-color: bisque;
+  border: 2px solid #000;
+  border-radius: 20px;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+button {
+  width: 100px;
+  height: 50px;
+  border-radius: 30px;
+}

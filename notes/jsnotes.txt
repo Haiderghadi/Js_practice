@@ -1,0 +1,54 @@
+JS NOTES:-
+
+
+1. var,let,const:-
+
+	var is old!!
+	let and const were introduced in ES6.
+	let value are changeable.
+	const is short for constant value(can't be changed).
+
+2.Dataypes:-
+
+	string: seqeunce of characters.
+	number: number.
+	boolean: values are true or false.
+	null: empty,there is variable but nothing in it.
+	undefined: explicitly define ("let x; " => no value provided.)
+
+
+3. Strings:-
+ 
+	concatenation(old):- declare variables first and then use it with string/sentence.
+	Template string(new): new and easy method. use of ("  ${variable} ");
+
+for example: 
+	const name="haider";
+	const age="19";
+	console.log("my name is "+ name + "and I am " + age + " year old!");
+
+	strings methods:- they can be used mutliple at same time.
+	String length
+String slice() String substring() String substr() String replace() String toUpperCase() String toLowerCase() String concat() String trim() String trimStart() String trimEnd() String padStart() String padEnd() String charAt() String charCodeAt() String split() String replaceAll()
+
+
+4. Arrays:-
+	variables that hold multiple values.
+
+	const fruits =["apple","banana",10,null];
+
+	arrays method:-
+Array length:The length property returns the length (size) of an array.
+Array toString():The JavaScript method toString() converts an array to a string of (comma separated) array values.
+Array pop():Popping items out of an array.
+Array push():pushing items into an array.
+Array shift():Shifting is equivalent to popping, but working on the first element instead of the last.
+Array unshift():
+Array join()
+Array delete()
+Array concat()
+Array flat()
+Array splice()
+Array slice()
+	
+

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>P2</title>
+</head>
+
+<body>
+  <div class="insert">
+    <div class="text">Press any key and watch the magic!</div>
+  </div>
+</body>
+<script>
+  const insert = document.querySelector(".insert");
+  window.addEventListener("keydown", (e) => {
+    insert.innerHTML = `<div>
+      <table border="2ff">
+        <tr>
+          <th>key</th>
+          <th>code</th>
+          <th>Code</th>
+        </tr>
+        <tr>
+          <td>${e.key === " " ? "space" : e.key}</td>
+          <td>${e.keycode}</td>
+          <td>${e.code}</td>
+        </tr>
+      </table></div>`;
+  })
+</script>
+
+</html>
